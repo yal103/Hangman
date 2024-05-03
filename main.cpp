@@ -86,10 +86,7 @@ int main() {
         cout << "The word was: " << word << endl;
     }
 
-
-    
-
-    
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     return 0;
 }
 
