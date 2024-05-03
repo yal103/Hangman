@@ -1,5 +1,5 @@
-#ifndef HANGMAN_FUNCTIONS_H
-#define HANGMAN_FUNCTIONS_H
+#ifndef hangman_functions_h
+#define hangman_functions_h
 #include <iostream>
 #include <vector>
 #include <time.h>

@@ -2,7 +2,6 @@
 #include <vector>
 #include <time.h>
 #include <limits>
-#include <conio.h>
 #include "hangman_functions.h"
 using namespace std;
 
@@ -75,7 +74,6 @@ int main() {
 
         if (complete) {
             cout << "Congratulations! You guessed the word: " << word << endl;
-            cin.get();
             break;
         }
     }
@@ -88,7 +86,6 @@ int main() {
         cout << "The word was: " << word << endl;
     }
 
-    cin.get();
     return 0;
 }
 
