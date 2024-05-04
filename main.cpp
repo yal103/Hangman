@@ -20,7 +20,7 @@ int main() {
     string word_blanks = create_blanks(word);
     string guessed_letters ="";
     string guess = "";
-    unsigned int misses = 0;
+    int misses = 0;
 
 
     // game loop
